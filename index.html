@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	
+	EDITED FOR: Kenya Commercial Bank (KCB)
+	Edited by: [Student Name]
+	Date: 2024
+	Changes: Complete rebranding for KCB Bank Kenya - changed color scheme to KCB brand colors
+	(green #7CC142, navy #1a3a52), replaced all content with banking products and services,
+	added KCB logo, updated images to banking/financial themes, modified layout for 
+	financial institution needs while maintaining original template structure.
+	
+	MENU FIX: Integrated working menu system with proper event listeners
+-->
+<html>
+	<head>
+		<title>KCB Bank Kenya | For People. For Better.</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="KCB Bank Kenya - For People. For Better. Opening doors of opportunity through innovative banking solutions." />
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1>
+					<a href="#">
+						<span class="kcb-logo-icon">KCB</span>
+						<span>KCB Bank Kenya</span>
+					</a>
+				</h1>
+				<button id="menu-btn" type="button">☰ Menu</button>
+			</header>
+
+		<!-- Menu Overlay -->
+			<div id="menu-overlay">
+				<div class="menu-box">
+					<button id="close-btn" type="button">×</button>
+					<h2>Menu</h2>
+					<ul>
+						<li><a href="#personal" onclick="handleLink('Personal Banking')">Personal Banking</a></li>
+						<li><a href="#business" onclick="handleLink('Business Banking')">Business Banking</a></li>
+						<li><a href="#corporate" onclick="handleLink('Corporate Banking')">Corporate Banking</a></li>
+						<li><a href="#corporate" onclick="handleLink('Diaspora Banking')">Diaspora Banking</a></li>
+						<li><a href="#about" onclick="handleLink('About KCB')">About KCB</a></li>
+						<li><a href="#footer" onclick="handleLink('Contact Us')">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<div class="logo"><span class="icon">🏦</span></div>
+							<h2>KCB Bank Kenya</h2>
+							<p>For People. For Better.<br>Opening doors of opportunity for over 127 years.</p>
+						</div>
+					</section>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="personal" class="wrapper spotlight style1">
+								<div class="inner">
+									<a href="#" class="image"><img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600" alt="Personal Banking" /></a>
+									<div class="content">
+										<h2 class="major">Personal Banking</h2>
+										<p>Experience banking designed around you. From savings accounts to personal loans, credit cards to mortgages, we provide tailored financial solutions to help you achieve your personal goals and secure your future.</p>
+										<a href="#" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="business" class="wrapper alt spotlight style2">
+								<div class="inner">
+									<a href="#" class="image"><img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600" alt="Business Banking" /></a>
+									<div class="content">
+										<h2 class="major">Business Banking</h2>
+										<p>Empowering enterprises to thrive. Our comprehensive business banking solutions include working capital financing, trade facilities, asset financing, and cash management services designed to fuel your business growth.</p>
+										<a href="#" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="corporate" class="wrapper spotlight style3">
+								<div class="inner">
+									<a href="#" class="image"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600" alt="Corporate Banking" /></a>
+									<div class="content">
+										<h2 class="major">Corporate Banking</h2>
+										<p>Strategic financial partnerships for large enterprises. Access sophisticated banking solutions including corporate finance, treasury services, investment banking, and specialized industry expertise across East Africa.</p>
+										<a href="#" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="about" class="wrapper alt style1">
+								<div class="inner">
+									<h2 class="major">Our Banking Solutions</h2>
+									<p>Discover our comprehensive range of financial products and services designed to meet your diverse banking needs, from everyday transactions to long-term wealth creation.</p>
+									<section class="features">
+										<article>
+											<a href="#" class="image"><img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400" alt="Home Loans" /></a>
+											<h3 class="major">Home Loans</h3>
+											<p>Make your dream home a reality with our flexible mortgage solutions featuring competitive interest rates and repayment periods of up to 25 years.</p>
+											<a href="#" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400" alt="Vehicle Finance" /></a>
+											<h3 class="major">Vehicle Finance</h3>
+											<p>Drive your dream car with up to 100% financing, flexible repayment terms, and quick approval processes for both new and used vehicles.</p>
+											<a href="#" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=400" alt="Mobile Banking" /></a>
+											<h3 class="major">KCB M-PESA</h3>
+											<p>Bank anywhere, anytime with our mobile banking solution. Send money, pay bills, buy airtime, and access loans directly from your phone.</p>
+											<a href="#" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=400" alt="Savings" /></a>
+											<h3 class="major">Savings & Investments</h3>
+											<p>Grow your wealth with our range of savings accounts, fixed deposits, and investment products offering competitive returns.</p>
+											<a href="#" class="special">Learn more</a>
+										</article>
+									</section>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Open Account</a></li>
+										<li><a href="#" class="button">Contact Us</a></li>
+									</ul>
+								</div>
+							</section>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<p>Have questions about our products and services? Our team is ready to assist you with all your banking needs.</p>
+							<form method="post" action="#" onsubmit="event.preventDefault(); alert('Message sent!');">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" required />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" required />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4" required></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" class="button primary" /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li>
+									<strong>KCB Bank Kenya Limited</strong><br />
+									Kencom House, Moi Avenue<br />
+									Nairobi, Kenya
+								</li>
+								<li>Phone: 0711 087 000</li>
+								<li>Email: <a href="mailto:info@kcb.co.ke">info@kcb.co.ke</a></li>
+								<li style="display: flex; gap: 10px; align-items: center; margin-top: 10px;">
+									<a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg" alt="X" width="24" height="24" style="filter: invert(1);"></a>
+									<a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" alt="Facebook" width="24" height="24" style="filter: invert(1);"></a>
+									<a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram" width="24" height="24" style="filter: invert(1);"></a>
+									<a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" width="24" height="24" style="filter: invert(1);"></a>
+									<a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg" alt="YouTube" width="24" height="24" style="filter: invert(1);"></a>
+								</li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; 2026 KCB Bank Kenya. All rights reserved.</li>
+								<li>Design: <a href="https://html5up.net/uploads/demos/solid-state/">HTML5 UP</a> (Modified for KCB)</li>
+								<li>Licensed under CCA 3.0</li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script>
+				// Get elements
+				var menuBtn = document.getElementById('menu-btn');
+				var closeBtn = document.getElementById('close-btn');
+				var menuOverlay = document.getElementById('menu-overlay');
+				var pageWrapper = document.getElementById('page-wrapper');
+
+				// Open menu function
+				function openMenu() {
+					console.log('Opening menu...');
+					menuOverlay.style.display = 'flex';
+					setTimeout(function() {
+						menuOverlay.classList.add('show');
+						pageWrapper.classList.add('blur');
+						document.body.classList.add('menu-open');
+					}, 10);
+				}
+
+				// Close menu function
+				function closeMenu() {
+					console.log('Closing menu...');
+					menuOverlay.classList.remove('show');
+					pageWrapper.classList.remove('blur');
+					document.body.classList.remove('menu-open');
+					
+					setTimeout(function() {
+						menuOverlay.style.display = 'none';
+					}, 300);
+				}
+
+				// Handle menu link clicks
+				function handleLink(item) {
+					var targetId = '';
+					switch(item) {
+						case 'Personal Banking':
+							targetId = 'personal';
+							break;
+						case 'Business Banking':
+							targetId = 'business';
+							break;
+						case 'Corporate Banking':
+							targetId = 'corporate';
+							break;
+						case 'Diaspora Banking':
+							targetId = 'corporate';
+							break;
+						case 'About KCB':
+							targetId = 'about';
+							break;
+						case 'Contact Us':
+							targetId = 'footer';
+							break;
+					}
+					
+					if (targetId) {
+						var target = document.getElementById(targetId);
+						if (target) {
+							target.scrollIntoView({behavior: 'smooth'});
+						}
+					}
+					closeMenu();
+				}
+
+				// Event listeners
+				menuBtn.addEventListener('click', function(e) {
+					e.preventDefault();
+					e.stopPropagation();
+					openMenu();
+				});
+
+				closeBtn.addEventListener('click', function(e) {
+					e.preventDefault();
+					e.stopPropagation();
+					closeMenu();
+				});
+
+				// Close when clicking outside
+				menuOverlay.addEventListener('click', function(e) {
+					if (e.target === menuOverlay) {
+						closeMenu();
+					}
+				});
+
+				// Close with ESC key
+				document.addEventListener('keydown', function(e) {
+					if (e.key === 'Escape' && menuOverlay.classList.contains('show')) {
+						closeMenu();
+					}
+				});
+
+				console.log('KCB Bank Website Loaded - Menu System Active');
+			</script>
+
+	</body>
+</html>
